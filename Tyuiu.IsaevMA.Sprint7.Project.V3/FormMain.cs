@@ -691,5 +691,10 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
         {
 
         }
+
+        private void textBoxSum_DDA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     } 
 }

@@ -117,7 +117,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.panelTop_DDA.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop_DDA.Location = new System.Drawing.Point(0, 0);
             this.panelTop_DDA.Name = "panelTop_DDA";
-            this.panelTop_DDA.Size = new System.Drawing.Size(1683, 68);
+            this.panelTop_DDA.Size = new System.Drawing.Size(1671, 68);
             this.panelTop_DDA.TabIndex = 0;
             // 
             // buttonInfo_DDA
@@ -127,7 +127,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.buttonInfo_DDA.Dock = System.Windows.Forms.DockStyle.Right;
             this.buttonInfo_DDA.FlatAppearance.BorderSize = 0;
             this.buttonInfo_DDA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonInfo_DDA.Location = new System.Drawing.Point(1615, 0);
+            this.buttonInfo_DDA.Location = new System.Drawing.Point(1603, 0);
             this.buttonInfo_DDA.Name = "buttonInfo_DDA";
             this.buttonInfo_DDA.Size = new System.Drawing.Size(68, 68);
             this.buttonInfo_DDA.TabIndex = 6;
@@ -184,7 +184,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.panelLeft_DDA.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft_DDA.Location = new System.Drawing.Point(0, 68);
             this.panelLeft_DDA.Name = "panelLeft_DDA";
-            this.panelLeft_DDA.Size = new System.Drawing.Size(200, 704);
+            this.panelLeft_DDA.Size = new System.Drawing.Size(200, 695);
             this.panelLeft_DDA.TabIndex = 1;
             // 
             // buttonLoadLesson_DDA
@@ -275,7 +275,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.dataGridViewOut_DDA.ReadOnly = true;
             this.dataGridViewOut_DDA.RowHeadersVisible = false;
             this.dataGridViewOut_DDA.RowHeadersWidth = 51;
-            this.dataGridViewOut_DDA.Size = new System.Drawing.Size(1276, 559);
+            this.dataGridViewOut_DDA.Size = new System.Drawing.Size(1264, 549);
             this.dataGridViewOut_DDA.TabIndex = 2;
             this.dataGridViewOut_DDA.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridViewOut_DDA_KeyDown);
             // 
@@ -290,7 +290,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.panelLeftButton_DDA.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeftButton_DDA.Location = new System.Drawing.Point(200, 68);
             this.panelLeftButton_DDA.Name = "panelLeftButton_DDA";
-            this.panelLeftButton_DDA.Size = new System.Drawing.Size(152, 704);
+            this.panelLeftButton_DDA.Size = new System.Drawing.Size(152, 695);
             this.panelLeftButton_DDA.TabIndex = 4;
             // 
             // panelLeftAudi_DDA
@@ -303,7 +303,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.panelLeftAudi_DDA.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeftAudi_DDA.Location = new System.Drawing.Point(0, 0);
             this.panelLeftAudi_DDA.Name = "panelLeftAudi_DDA";
-            this.panelLeftAudi_DDA.Size = new System.Drawing.Size(152, 704);
+            this.panelLeftAudi_DDA.Size = new System.Drawing.Size(152, 695);
             this.panelLeftAudi_DDA.TabIndex = 10;
             this.panelLeftAudi_DDA.Visible = false;
             // 
@@ -317,7 +317,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.panelLeftKaf_DDA.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeftKaf_DDA.Location = new System.Drawing.Point(0, 0);
             this.panelLeftKaf_DDA.Name = "panelLeftKaf_DDA";
-            this.panelLeftKaf_DDA.Size = new System.Drawing.Size(152, 704);
+            this.panelLeftKaf_DDA.Size = new System.Drawing.Size(152, 695);
             this.panelLeftKaf_DDA.TabIndex = 8;
             // 
             // panelLeftPred_DDA
@@ -331,7 +331,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.panelLeftPred_DDA.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeftPred_DDA.Location = new System.Drawing.Point(0, 0);
             this.panelLeftPred_DDA.Name = "panelLeftPred_DDA";
-            this.panelLeftPred_DDA.Size = new System.Drawing.Size(152, 704);
+            this.panelLeftPred_DDA.Size = new System.Drawing.Size(152, 695);
             this.panelLeftPred_DDA.TabIndex = 16;
             // 
             // buttonChekFilePred_DDA
@@ -711,7 +711,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.panelTopInfo_DDA.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTopInfo_DDA.Location = new System.Drawing.Point(352, 68);
             this.panelTopInfo_DDA.Name = "panelTopInfo_DDA";
-            this.panelTopInfo_DDA.Size = new System.Drawing.Size(1331, 58);
+            this.panelTopInfo_DDA.Size = new System.Drawing.Size(1319, 58);
             this.panelTopInfo_DDA.TabIndex = 5;
             // 
             // labelOut_DDA
@@ -726,11 +726,12 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // 
             // panelBottom_DDA
             // 
+            this.panelBottom_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.panelBottom_DDA.Controls.Add(this.groupBoxKolTeach_DDA);
             this.panelBottom_DDA.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelBottom_DDA.Location = new System.Drawing.Point(352, 689);
+            this.panelBottom_DDA.Location = new System.Drawing.Point(352, 679);
             this.panelBottom_DDA.Name = "panelBottom_DDA";
-            this.panelBottom_DDA.Size = new System.Drawing.Size(1331, 83);
+            this.panelBottom_DDA.Size = new System.Drawing.Size(1319, 84);
             this.panelBottom_DDA.TabIndex = 6;
             // 
             // groupBoxKolTeach_DDA
@@ -742,7 +743,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.groupBoxKolTeach_DDA.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxKolTeach_DDA.Location = new System.Drawing.Point(0, 0);
             this.groupBoxKolTeach_DDA.Name = "groupBoxKolTeach_DDA";
-            this.groupBoxKolTeach_DDA.Size = new System.Drawing.Size(1331, 83);
+            this.groupBoxKolTeach_DDA.Size = new System.Drawing.Size(1319, 84);
             this.groupBoxKolTeach_DDA.TabIndex = 10;
             this.groupBoxKolTeach_DDA.TabStop = false;
             this.groupBoxKolTeach_DDA.Text = "Рассчёт количества преподавателей:";
@@ -754,9 +755,9 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.groupBoxKolPre_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.groupBoxKolPre_DDA.Controls.Add(this.buttonSumPred_DDA);
             this.groupBoxKolPre_DDA.Controls.Add(this.textBoxKolPred_DDA);
-            this.groupBoxKolPre_DDA.Location = new System.Drawing.Point(666, 0);
+            this.groupBoxKolPre_DDA.Location = new System.Drawing.Point(0, 0);
             this.groupBoxKolPre_DDA.Name = "groupBoxKolPre_DDA";
-            this.groupBoxKolPre_DDA.Size = new System.Drawing.Size(665, 84);
+            this.groupBoxKolPre_DDA.Size = new System.Drawing.Size(1319, 84);
             this.groupBoxKolPre_DDA.TabIndex = 12;
             this.groupBoxKolPre_DDA.TabStop = false;
             this.groupBoxKolPre_DDA.Text = "Общее количество учебных часов в семестре:";
@@ -766,7 +767,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // buttonSumPred_DDA
             // 
             this.buttonSumPred_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.buttonSumPred_DDA.Location = new System.Drawing.Point(11, 48);
+            this.buttonSumPred_DDA.Location = new System.Drawing.Point(6, 50);
             this.buttonSumPred_DDA.Name = "buttonSumPred_DDA";
             this.buttonSumPred_DDA.Size = new System.Drawing.Size(153, 35);
             this.buttonSumPred_DDA.TabIndex = 10;
@@ -777,7 +778,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // 
             // textBoxKolPred_DDA
             // 
-            this.textBoxKolPred_DDA.Location = new System.Drawing.Point(11, 21);
+            this.textBoxKolPred_DDA.Location = new System.Drawing.Point(6, 18);
             this.textBoxKolPred_DDA.Name = "textBoxKolPred_DDA";
             this.textBoxKolPred_DDA.ReadOnly = true;
             this.textBoxKolPred_DDA.Size = new System.Drawing.Size(153, 26);
@@ -787,7 +788,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // buttonSumTeacher_DDA
             // 
             this.buttonSumTeacher_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.buttonSumTeacher_DDA.Location = new System.Drawing.Point(11, 49);
+            this.buttonSumTeacher_DDA.Location = new System.Drawing.Point(22, 50);
             this.buttonSumTeacher_DDA.Name = "buttonSumTeacher_DDA";
             this.buttonSumTeacher_DDA.Size = new System.Drawing.Size(146, 34);
             this.buttonSumTeacher_DDA.TabIndex = 10;
@@ -798,20 +799,21 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // 
             // textBoxSum_DDA
             // 
-            this.textBoxSum_DDA.Location = new System.Drawing.Point(11, 21);
+            this.textBoxSum_DDA.Location = new System.Drawing.Point(22, 25);
             this.textBoxSum_DDA.Name = "textBoxSum_DDA";
             this.textBoxSum_DDA.ReadOnly = true;
             this.textBoxSum_DDA.Size = new System.Drawing.Size(146, 26);
             this.textBoxSum_DDA.TabIndex = 9;
             this.textBoxSum_DDA.Visible = false;
+            this.textBoxSum_DDA.TextChanged += new System.EventHandler(this.textBoxSum_DDA_TextChanged);
             // 
             // panelRightFill_DDA
             // 
             this.panelRightFill_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.panelRightFill_DDA.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelRightFill_DDA.Location = new System.Drawing.Point(1632, 126);
+            this.panelRightFill_DDA.Location = new System.Drawing.Point(1620, 126);
             this.panelRightFill_DDA.Name = "panelRightFill_DDA";
-            this.panelRightFill_DDA.Size = new System.Drawing.Size(51, 563);
+            this.panelRightFill_DDA.Size = new System.Drawing.Size(51, 553);
             this.panelRightFill_DDA.TabIndex = 10;
             // 
             // panelFill_DDA
@@ -821,14 +823,14 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.panelFill_DDA.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelFill_DDA.Location = new System.Drawing.Point(352, 126);
             this.panelFill_DDA.Name = "panelFill_DDA";
-            this.panelFill_DDA.Size = new System.Drawing.Size(1280, 563);
+            this.panelFill_DDA.Size = new System.Drawing.Size(1268, 553);
             this.panelFill_DDA.TabIndex = 11;
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1683, 772);
+            this.ClientSize = new System.Drawing.Size(1671, 763);
             this.Controls.Add(this.panelFill_DDA);
             this.Controls.Add(this.panelRightFill_DDA);
             this.Controls.Add(this.panelBottom_DDA);
