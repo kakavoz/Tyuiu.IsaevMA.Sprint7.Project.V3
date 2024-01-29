@@ -8,8 +8,8 @@
     <ProjectGuid>{FE11CBA1-5AA8-461B-B1E3-3F26BD1B00C8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.DeminDA.Sprint7.Project.V3.Test</RootNamespace>
-    <AssemblyName>Tyuiu.DeminDA.Sprint7.Project.V3.Test</AssemblyName>
+    <RootNamespace>Tyuiu.IsaevMA.Sprint7.Project.V3.Test</RootNamespace>
+    <AssemblyName>Tyuiu.IsaevMA.Sprint7.Project.V3.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -62,10 +62,6 @@
     <ProjectReference Include="..\Tyuiu.IsaevMA.Sprint7.Project.V3.Lib\Tyuiu.IsaevMA.Sprint7.Project.V3.Lib.csproj">
       <Project>{75ca601f-c98b-42ad-bcdc-a5baffc43035}</Project>
       <Name>Tyuiu.IsaevMA.Sprint7.Project.V3.Lib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Tyuiu.IsaevMA.Sprint7.Project.V3\Tyuiu.IsaevMA.Sprint7.Project.V3.csproj">
-      <Project>{8c861bd4-5fa8-4295-ac2e-5a0ec35175a2}</Project>
-      <Name>Tyuiu.IsaevMA.Sprint7.Project.V3</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -7,8 +7,8 @@
     <ProjectGuid>{75CA601F-C98B-42AD-BCDC-A5BAFFC43035}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.DeminDA.Sprint7.Project.V3.Lib</RootNamespace>
-    <AssemblyName>Tyuiu.DeminDA.Sprint7.Project.V3.Lib</AssemblyName>
+    <RootNamespace>Tyuiu.IsaevMA.Sprint7.Project.V3.Lib</RootNamespace>
+    <AssemblyName>Tyuiu.IsaevMA.Sprint7.Project.V3.Lib</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
