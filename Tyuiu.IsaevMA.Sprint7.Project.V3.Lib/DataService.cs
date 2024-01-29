@@ -16,13 +16,13 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3.Lib
             string[] lines = fileData.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
             int rows = lines.Length;
-            int columns = lines[0].Split(';').Length;
+            int columns = lines[0].Split(',').Length;
 
             string[,] arrayValues = new string[rows, columns];
 
             for (int r = 0; r < rows; r++)
             {
-                string[] line_r = lines[r].Split(';');
+                string[] line_r = lines[r].Split(',');
                 for (int c = 0; c < columns; c++)
                 {
                     arrayValues[r, c] = line_r[c];
@@ -43,7 +43,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3.Lib
                 {
                     if (j != Data.GetLength(1) - 1)
                     {
-                        str = str + Data[i, j] + ";";
+                        str = str + Data[i, j] + ",";
                     }
                     else
                     {
@@ -82,7 +82,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3.Lib
             {
                 if (i != line.Length - 1)
                 {
-                    str = str + line[i] + ";";
+                    str = str + line[i] + ",";
                 }
                 else
                 {
