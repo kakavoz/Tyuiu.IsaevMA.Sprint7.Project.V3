@@ -31,8 +31,6 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddNewData));
-            this.panelTop_DDA = new System.Windows.Forms.Panel();
-            this.panelLeftTop_DDA = new System.Windows.Forms.Panel();
             this.buttonManagement_DDA = new System.Windows.Forms.Button();
             this.panelLeft_DDA = new System.Windows.Forms.Panel();
             this.buttonLoadLesson_DDA = new System.Windows.Forms.Button();
@@ -79,8 +77,6 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.textBoxIDTeach_DDA = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.toolTip_DDA = new System.Windows.Forms.ToolTip(this.components);
-            this.panelTop_DDA.SuspendLayout();
-            this.panelLeftTop_DDA.SuspendLayout();
             this.panelLeft_DDA.SuspendLayout();
             this.panelTeach_DDA.SuspendLayout();
             this.groupBoxPred_DDA.SuspendLayout();
@@ -89,38 +85,16 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.groupBoxTeach_DDA.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panelTop_DDA
-            // 
-            this.panelTop_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panelTop_DDA.Controls.Add(this.panelLeftTop_DDA);
-            this.panelTop_DDA.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTop_DDA.Location = new System.Drawing.Point(0, 0);
-            this.panelTop_DDA.Margin = new System.Windows.Forms.Padding(4);
-            this.panelTop_DDA.Name = "panelTop_DDA";
-            this.panelTop_DDA.Size = new System.Drawing.Size(719, 62);
-            this.panelTop_DDA.TabIndex = 1;
-            // 
-            // panelLeftTop_DDA
-            // 
-            this.panelLeftTop_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panelLeftTop_DDA.Controls.Add(this.buttonManagement_DDA);
-            this.panelLeftTop_DDA.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLeftTop_DDA.Location = new System.Drawing.Point(0, 0);
-            this.panelLeftTop_DDA.Margin = new System.Windows.Forms.Padding(4);
-            this.panelLeftTop_DDA.Name = "panelLeftTop_DDA";
-            this.panelLeftTop_DDA.Size = new System.Drawing.Size(237, 62);
-            this.panelLeftTop_DDA.TabIndex = 1;
-            // 
             // buttonManagement_DDA
             // 
             this.buttonManagement_DDA.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonManagement_DDA.BackgroundImage")));
             this.buttonManagement_DDA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonManagement_DDA.FlatAppearance.BorderSize = 0;
             this.buttonManagement_DDA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonManagement_DDA.Location = new System.Drawing.Point(0, 0);
+            this.buttonManagement_DDA.Location = new System.Drawing.Point(4, 405);
             this.buttonManagement_DDA.Margin = new System.Windows.Forms.Padding(4);
             this.buttonManagement_DDA.Name = "buttonManagement_DDA";
-            this.buttonManagement_DDA.Size = new System.Drawing.Size(81, 60);
+            this.buttonManagement_DDA.Size = new System.Drawing.Size(35, 60);
             this.buttonManagement_DDA.TabIndex = 7;
             this.toolTip_DDA.SetToolTip(this.buttonManagement_DDA, "Руководство пользователя");
             this.buttonManagement_DDA.UseVisualStyleBackColor = true;
@@ -129,15 +103,16 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // panelLeft_DDA
             // 
             this.panelLeft_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panelLeft_DDA.Controls.Add(this.buttonManagement_DDA);
             this.panelLeft_DDA.Controls.Add(this.buttonLoadLesson_DDA);
             this.panelLeft_DDA.Controls.Add(this.buttonLoadDepartment_DDA);
             this.panelLeft_DDA.Controls.Add(this.buttonLoadClass_DDA);
             this.panelLeft_DDA.Controls.Add(this.buttonLoadTeacher_DDA);
             this.panelLeft_DDA.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLeft_DDA.Location = new System.Drawing.Point(0, 62);
+            this.panelLeft_DDA.Location = new System.Drawing.Point(0, 0);
             this.panelLeft_DDA.Margin = new System.Windows.Forms.Padding(4);
             this.panelLeft_DDA.Name = "panelLeft_DDA";
-            this.panelLeft_DDA.Size = new System.Drawing.Size(237, 382);
+            this.panelLeft_DDA.Size = new System.Drawing.Size(237, 469);
             this.panelLeft_DDA.TabIndex = 2;
             // 
             // buttonLoadLesson_DDA
@@ -150,10 +125,10 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.buttonLoadLesson_DDA.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.buttonLoadLesson_DDA.Image = ((System.Drawing.Image)(resources.GetObject("buttonLoadLesson_DDA.Image")));
             this.buttonLoadLesson_DDA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonLoadLesson_DDA.Location = new System.Drawing.Point(0, 213);
+            this.buttonLoadLesson_DDA.Location = new System.Drawing.Point(0, 297);
             this.buttonLoadLesson_DDA.Margin = new System.Windows.Forms.Padding(0);
             this.buttonLoadLesson_DDA.Name = "buttonLoadLesson_DDA";
-            this.buttonLoadLesson_DDA.Size = new System.Drawing.Size(237, 71);
+            this.buttonLoadLesson_DDA.Size = new System.Drawing.Size(237, 99);
             this.buttonLoadLesson_DDA.TabIndex = 3;
             this.buttonLoadLesson_DDA.Text = "Предметы";
             this.buttonLoadLesson_DDA.UseVisualStyleBackColor = false;
@@ -169,10 +144,10 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.buttonLoadDepartment_DDA.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.buttonLoadDepartment_DDA.Image = ((System.Drawing.Image)(resources.GetObject("buttonLoadDepartment_DDA.Image")));
             this.buttonLoadDepartment_DDA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonLoadDepartment_DDA.Location = new System.Drawing.Point(0, 142);
+            this.buttonLoadDepartment_DDA.Location = new System.Drawing.Point(0, 198);
             this.buttonLoadDepartment_DDA.Margin = new System.Windows.Forms.Padding(0);
             this.buttonLoadDepartment_DDA.Name = "buttonLoadDepartment_DDA";
-            this.buttonLoadDepartment_DDA.Size = new System.Drawing.Size(237, 71);
+            this.buttonLoadDepartment_DDA.Size = new System.Drawing.Size(237, 99);
             this.buttonLoadDepartment_DDA.TabIndex = 2;
             this.buttonLoadDepartment_DDA.Text = "Кафедры";
             this.buttonLoadDepartment_DDA.UseVisualStyleBackColor = false;
@@ -188,10 +163,10 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.buttonLoadClass_DDA.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.buttonLoadClass_DDA.Image = ((System.Drawing.Image)(resources.GetObject("buttonLoadClass_DDA.Image")));
             this.buttonLoadClass_DDA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonLoadClass_DDA.Location = new System.Drawing.Point(0, 71);
+            this.buttonLoadClass_DDA.Location = new System.Drawing.Point(0, 99);
             this.buttonLoadClass_DDA.Margin = new System.Windows.Forms.Padding(0);
             this.buttonLoadClass_DDA.Name = "buttonLoadClass_DDA";
-            this.buttonLoadClass_DDA.Size = new System.Drawing.Size(237, 71);
+            this.buttonLoadClass_DDA.Size = new System.Drawing.Size(237, 99);
             this.buttonLoadClass_DDA.TabIndex = 1;
             this.buttonLoadClass_DDA.Text = "Аудитории";
             this.buttonLoadClass_DDA.UseVisualStyleBackColor = false;
@@ -211,7 +186,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.buttonLoadTeacher_DDA.Location = new System.Drawing.Point(0, 0);
             this.buttonLoadTeacher_DDA.Margin = new System.Windows.Forms.Padding(0);
             this.buttonLoadTeacher_DDA.Name = "buttonLoadTeacher_DDA";
-            this.buttonLoadTeacher_DDA.Size = new System.Drawing.Size(237, 71);
+            this.buttonLoadTeacher_DDA.Size = new System.Drawing.Size(237, 99);
             this.buttonLoadTeacher_DDA.TabIndex = 0;
             this.buttonLoadTeacher_DDA.Text = "Преподаватели";
             this.buttonLoadTeacher_DDA.UseVisualStyleBackColor = false;
@@ -219,17 +194,17 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // 
             // panelTeach_DDA
             // 
-            this.panelTeach_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panelTeach_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.panelTeach_DDA.Controls.Add(this.groupBoxPred_DDA);
             this.panelTeach_DDA.Controls.Add(this.groupBoxKaf_DDA);
             this.panelTeach_DDA.Controls.Add(this.groupBoxAudi_DDA);
             this.panelTeach_DDA.Controls.Add(this.groupBoxTeach_DDA);
             this.panelTeach_DDA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelTeach_DDA.Location = new System.Drawing.Point(237, 62);
+            this.panelTeach_DDA.Location = new System.Drawing.Point(237, 0);
             this.panelTeach_DDA.Margin = new System.Windows.Forms.Padding(4);
             this.panelTeach_DDA.Name = "panelTeach_DDA";
             this.panelTeach_DDA.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.panelTeach_DDA.Size = new System.Drawing.Size(482, 382);
+            this.panelTeach_DDA.Size = new System.Drawing.Size(854, 469);
             this.panelTeach_DDA.TabIndex = 3;
             // 
             // groupBoxPred_DDA
@@ -251,7 +226,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.groupBoxPred_DDA.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxPred_DDA.Name = "groupBoxPred_DDA";
             this.groupBoxPred_DDA.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBoxPred_DDA.Size = new System.Drawing.Size(468, 370);
+            this.groupBoxPred_DDA.Size = new System.Drawing.Size(840, 457);
             this.groupBoxPred_DDA.TabIndex = 11;
             this.groupBoxPred_DDA.TabStop = false;
             this.groupBoxPred_DDA.Text = "Добавление новых данных в \"Предметы\":";
@@ -302,11 +277,12 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // 
             // buttonAddPred_DDA
             // 
-            this.buttonAddPred_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.buttonAddPred_DDA.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.buttonAddPred_DDA.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonAddPred_DDA.Location = new System.Drawing.Point(351, 334);
             this.buttonAddPred_DDA.Margin = new System.Windows.Forms.Padding(4);
             this.buttonAddPred_DDA.Name = "buttonAddPred_DDA";
-            this.buttonAddPred_DDA.Size = new System.Drawing.Size(108, 28);
+            this.buttonAddPred_DDA.Size = new System.Drawing.Size(108, 30);
             this.buttonAddPred_DDA.TabIndex = 0;
             this.buttonAddPred_DDA.Text = "Добавить";
             this.buttonAddPred_DDA.UseVisualStyleBackColor = false;
@@ -388,7 +364,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.groupBoxKaf_DDA.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxKaf_DDA.Name = "groupBoxKaf_DDA";
             this.groupBoxKaf_DDA.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBoxKaf_DDA.Size = new System.Drawing.Size(468, 370);
+            this.groupBoxKaf_DDA.Size = new System.Drawing.Size(840, 457);
             this.groupBoxKaf_DDA.TabIndex = 10;
             this.groupBoxKaf_DDA.TabStop = false;
             this.groupBoxKaf_DDA.Text = "Добавление новых данных в \"Кафедры\":";
@@ -481,7 +457,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.groupBoxAudi_DDA.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxAudi_DDA.Name = "groupBoxAudi_DDA";
             this.groupBoxAudi_DDA.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBoxAudi_DDA.Size = new System.Drawing.Size(468, 370);
+            this.groupBoxAudi_DDA.Size = new System.Drawing.Size(840, 457);
             this.groupBoxAudi_DDA.TabIndex = 9;
             this.groupBoxAudi_DDA.TabStop = false;
             this.groupBoxAudi_DDA.Text = "Добавление новых данных в \"Аудитории\":";
@@ -576,7 +552,7 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             this.groupBoxTeach_DDA.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxTeach_DDA.Name = "groupBoxTeach_DDA";
             this.groupBoxTeach_DDA.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBoxTeach_DDA.Size = new System.Drawing.Size(468, 370);
+            this.groupBoxTeach_DDA.Size = new System.Drawing.Size(840, 457);
             this.groupBoxTeach_DDA.TabIndex = 3;
             this.groupBoxTeach_DDA.TabStop = false;
             this.groupBoxTeach_DDA.Text = "Добавление новых данных в \"Преподаватели\":";
@@ -680,20 +656,18 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(719, 444);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(1091, 469);
             this.Controls.Add(this.panelTeach_DDA);
             this.Controls.Add(this.panelLeft_DDA);
-            this.Controls.Add(this.panelTop_DDA);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(734, 481);
             this.Name = "AddNewData";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Добавление новых данных в таблицы";
+            this.Text = "Добавление новых данных ";
             this.Load += new System.EventHandler(this.AddNewData_Load);
-            this.panelTop_DDA.ResumeLayout(false);
-            this.panelLeftTop_DDA.ResumeLayout(false);
             this.panelLeft_DDA.ResumeLayout(false);
             this.panelTeach_DDA.ResumeLayout(false);
             this.groupBoxPred_DDA.ResumeLayout(false);
@@ -709,9 +683,6 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panelTop_DDA;
-        private System.Windows.Forms.Panel panelLeftTop_DDA;
         private System.Windows.Forms.Panel panelLeft_DDA;
         private System.Windows.Forms.Button buttonLoadLesson_DDA;
         private System.Windows.Forms.Button buttonLoadDepartment_DDA;

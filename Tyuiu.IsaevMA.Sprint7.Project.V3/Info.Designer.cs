@@ -39,9 +39,9 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // 
             this.pictureBox_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.pictureBox_DDA.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_DDA.Image")));
-            this.pictureBox_DDA.Location = new System.Drawing.Point(160, 187);
+            this.pictureBox_DDA.Location = new System.Drawing.Point(12, 12);
             this.pictureBox_DDA.Name = "pictureBox_DDA";
-            this.pictureBox_DDA.Size = new System.Drawing.Size(648, 263);
+            this.pictureBox_DDA.Size = new System.Drawing.Size(911, 278);
             this.pictureBox_DDA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_DDA.TabIndex = 0;
             this.pictureBox_DDA.TabStop = false;
@@ -51,10 +51,10 @@ namespace Tyuiu.IsaevMA.Sprint7.Project.V3
             // 
             this.labelInfo_DDA.AutoSize = true;
             this.labelInfo_DDA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.labelInfo_DDA.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.8F, System.Drawing.FontStyle.Bold);
-            this.labelInfo_DDA.Location = new System.Drawing.Point(290, 114);
+            this.labelInfo_DDA.Font = new System.Drawing.Font("Microsoft Sans Serif", 38.8F, System.Drawing.FontStyle.Bold);
+            this.labelInfo_DDA.Location = new System.Drawing.Point(49, 293);
             this.labelInfo_DDA.Name = "labelInfo_DDA";
-            this.labelInfo_DDA.Size = new System.Drawing.Size(407, 74);
+            this.labelInfo_DDA.Size = new System.Drawing.Size(818, 148);
             this.labelInfo_DDA.TabIndex = 1;
             this.labelInfo_DDA.Text = "Разработчик: Исаев.М.А.\r\nГруппа АСОИУБ-23-3";
             this.labelInfo_DDA.Click += new System.EventHandler(this.labelInfo_DDA_Click);
